@@ -1,6 +1,10 @@
 # tabs-block-classic
 多标签内容展示（Tabs Block for Classic &amp; Gutenberg）
 
+![2025-06-27_163002](https://github.com/user-attachments/assets/05ce9184-2bba-43e9-9225-2fb9d2866f4c)
+![2025-06-27_163016](https://github.com/user-attachments/assets/874f998a-2c41-4cd6-bdf4-5676035caa30)
+
+
 # Tabs Block for Classic & Gutenberg
 
 **贡献者：** 码铃薯  
