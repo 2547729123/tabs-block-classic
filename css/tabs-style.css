@@ -1,0 +1,39 @@
+.tbc-tabs-container {
+    border: none;/*这里直接去除了父容器外框*/
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.tbc-tab-titles {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.tbc-tab-title {
+    padding: 8px 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background: #f9f9f9;
+    margin-right: 5px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.tbc-tab-title.active {
+    background: #fff;
+    font-weight: bold;
+}
+.tbc-tab-content {
+    display: none;
+}
+.tbc-tab-content.active {
+    display: block;
+}
+@media (max-width: 600px) {
+    .tbc-tab-titles {
+        flex-direction: column;
+    }
+    .tbc-tab-title {
+        margin-bottom: 5px;
+    }
+}
