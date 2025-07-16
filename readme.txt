@@ -1,12 +1,13 @@
 === 多标签内容展示（Tabs Block for Classic & Gutenberg） ===
-贡献者: 码铃薯
-插件作者主页: https://tudoucode.cn
-标签: 多标签, tabs, 经典编辑器, Gutenberg, 短代码, 内容切换
-需要的最低版本: 5.0
-测试版本: 6.3
-稳定版本: 1.1
-许可证: GPLv2 或更高
-许可证 URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+Contributors: qq420218831
+Tags: 多标签, tabs, 经典编辑器, Gutenberg, 短代码, 内容切换
+Requires at least: 5.0
+Tested up to: 6.8
+Requires PHP: 7.0
+Stable tag: 1.1
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 多标签内容展示（Tabs Block for Classic & Gutenberg）是一款支持 WordPress 经典编辑器和 Gutenberg 编辑器的多标签短代码插件，提供插入按钮，方便快速生成多标签切换内容。
 

@@ -1,14 +1,16 @@
 .tbc-tabs-container {
-    border: none;/*这里直接去除了父容器外框*/
+    border: 1px solid #ccc; /* 保留父容器边框 */
     padding: 10px;
     margin-bottom: 20px;
 }
+
 .tbc-tab-titles {
     display: flex;
     flex-wrap: wrap;
     border-bottom: 1px solid #ccc;
     margin-bottom: 10px;
 }
+
 .tbc-tab-title {
     padding: 8px 16px;
     cursor: pointer;
@@ -18,22 +20,37 @@
     margin-right: 5px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+
+    /* 让标签可以聚焦，方便键盘操作 */
+    outline: none;
 }
+
+.tbc-tab-title:hover,
+.tbc-tab-title:focus {
+    background-color: #eaeaea;
+    outline: 2px solid #0073aa; /* WP蓝色焦点框 */
+    outline-offset: 2px;
+}
+
 .tbc-tab-title.active {
     background: #fff;
     font-weight: bold;
 }
+
 .tbc-tab-content {
     display: none;
 }
+
 .tbc-tab-content.active {
     display: block;
 }
+
 @media (max-width: 600px) {
     .tbc-tab-titles {
         flex-direction: column;
     }
     .tbc-tab-title {
         margin-bottom: 5px;
+        margin-right: 0;
     }
 }
