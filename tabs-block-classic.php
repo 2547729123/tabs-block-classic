@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: 多标签内容展示（Tabs Block for Classic & Gutenberg）
+Plugin Name: 多标签内容展示（Tabs Block Classic）
 Plugin URI: https://github.com/2547729123/tabs-block-classic
 Description: 支持Classic经典编辑器和Gutenberg编辑器的多标签短代码插件，带两个编辑器的插入按钮，方便快速生成多标签切换内容。
 Version: 1.1
